@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kieran C.M. Fergus</h1>
+        <p>Welcome to my portfolio! Here, you'll find a collection of my favorite projects so far!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>Hello!</h2>
+        <p>I'm Kieran, a Computer Science student at Tufts University. I'm a  DC native (Vamos DC United!), and I'm interested in software development and network security. Below are some of the projects I've built during my academic career.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3><a href="https://github.com/KieranFergus/Password_Crackin">Password Crackin!</a></h3>
+            <p>A quick script which allows a user to crack password hashes using a repository of .txt files </p>
+            <p class="lang">Technologies Used: Python, John the Ripper</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>- Performs a user-provided dictionary attack on password hashes</li>
+                <li>- Allows the "John the Ripper" interface to sequentially operate on multiple wordlists</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3><a href="https://cine-swipe-c020e64efa38.herokuapp.com/signup">CineSwipe</a></h3>
+            <p> Movie Tinder! Users swipe left or right on movies instead of romantic interests. </p>
+            <p class="lang">Language Used: HTML+CSS, JavaScript, JQuery, Node.js, MongoDB</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>- Uses a Tinder-esque (swiping) interface to learn user movie preference</li>
+                <li>- Provides movie recommendations based on user preferences and selections in addition to popular new movies</li>
+                <li>- *Fixing API issues on the swipe page*</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3><a href="https://github.com/yvonne-lopez-davila/um_6_cs40/tree/main/submit">Universal Machine</a></h3>
+            <p> A fast and accurate Universal Turing Machine Emulator - theoretically capable of simulating any other Turing machine hardware </p>
+            <p class="lang">Languages Used: C</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>- Has its own segmented memory and 8 registers </li>
+                <li>- Operates using 14 RISC-style instructions (arithmetic and logical operations, byte-oriented I/O, Memory management)</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3><a href="https://github.com/KieranFergus/Arith">Lossy Image Compressor</a></h3>
+            <p> A lightweight PPM image compressor/decompressor implemented via bitpacking of image pixels </p>
+            <p class="lang">Languages Used: C</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>- Compresses and image by taking its binary representation and bitpacking each 2x2 block of pixels into code strings </li>
+                <li>- Decompresses images by unpacking the strings into 2x2 blocks of pixels</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Languages: C, C++, Python, JavaScript, HTML, CSS</p>
+        <p>Frameworks: Node.js</p>
+        <p>Tools: Git, WireShark, MongoDB</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:kieran.fergus@tufts.edu">kieran.fergus@tufts.edu</a></p>
+        <p>Mobile: +1 (202) 812-3800</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kieran-fergus/" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting my portfolio!</p>
+    </footer>
+</body>
+</html>
